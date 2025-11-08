@@ -2,6 +2,18 @@
 
 All notable changes to this add-on will be documented in this file.
 
+## [1.0.1] - 2025-11-09
+
+### Fixed
+- Fixed "command not found" error for hbbs and hbbr binaries
+- Added dynamic binary location detection in run.sh
+- Cleared ENTRYPOINT in Dockerfile to avoid conflicts with base image
+- Added official RustDesk icon (128x128)
+
+### Changed
+- Improved binary discovery with fallback search paths
+- Enhanced logging to show binary locations during startup
+
 ## [1.0.0] - 2025-11-09
 
 ### Added

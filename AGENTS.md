@@ -59,10 +59,33 @@ docker run --network host -v $(pwd)/test-data:/config rustdesk-test
 ```
 
 ### Version Updates
-1. Update `version` in `rustdesk-server-pro/config.yaml`
-2. Add entry to `rustdesk-server-pro/CHANGELOG.md`
-3. Commit and push to GitHub
-4. Users will see update available in Home Assistant
+
+**IMPORTANT: Always update version and changelog when making changes!**
+
+1. Update `version` in `rustdesk-server-pro/config.yaml` (use semantic versioning: MAJOR.MINOR.PATCH)
+   - MAJOR: Breaking changes
+   - MINOR: New features, backward compatible
+   - PATCH: Bug fixes, backward compatible
+2. Add entry to `rustdesk-server-pro/CHANGELOG.md` with:
+   - Version number and date
+   - Category: Added, Changed, Deprecated, Removed, Fixed, Security
+   - Description of changes
+3. Commit with meaningful message (e.g., "Release v1.0.1 - Fix binary path issues")
+4. Push to GitHub
+5. Users will see update available in Home Assistant
+
+**Example workflow:**
+```bash
+# 1. Make your code changes
+# 2. Update version
+# Edit rustdesk-server-pro/config.yaml: version: "1.0.1"
+# 3. Update changelog
+# Edit rustdesk-server-pro/CHANGELOG.md: Add entry under new version
+# 4. Commit and push
+git add -A
+git commit -m "Release v1.0.1 - Fix binary discovery"
+git push origin main
+```
 
 ## Architecture Support
 
