@@ -2,6 +2,14 @@
 
 All notable changes to this add-on will be documented in this file.
 
+## [1.0.6] - 2025-11-09
+
+### Fixed
+- Simplified run.sh to use /share/rustdesk for data (avoiding symlink complexity)
+- Added set -e for better error handling
+- Hardcoded binary paths to avoid discovery issues
+- Changed from addon_config to share mapping for better compatibility
+
 ## [1.0.5] - 2025-11-09
 
 ### Fixed
