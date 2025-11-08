@@ -2,6 +2,11 @@
 
 All notable changes to this add-on will be documented in this file.
 
+## [1.0.5] - 2025-11-09
+
+### Fixed
+- Updated icon with native 128x128 version from RustDesk repository
+
 ## [1.0.4] - 2025-11-09
 
 ### Fixed
