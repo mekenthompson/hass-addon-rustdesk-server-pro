@@ -2,6 +2,13 @@
 
 All notable changes to this add-on will be documented in this file.
 
+## [1.0.4] - 2025-11-09
+
+### Fixed
+- **CRITICAL:** Fixed working directory - RustDesk expects data in /root, not /config
+- Added symlink from /root to /config to match official Docker documentation
+- Services now run from /root directory as per RustDesk documentation
+
 ## [1.0.3] - 2025-11-09
 
 ### Fixed
