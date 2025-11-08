@@ -2,6 +2,15 @@
 
 All notable changes to this add-on will be documented in this file.
 
+## [1.1.0] - 2025-11-09
+
+### Changed
+- **COMPLETE REWRITE**: Now exactly matches official RustDesk Docker documentation
+- Simplified Dockerfile to minimal setup
+- Simplified run.sh to run hbbr and hbbs from /root (as per official docs)
+- Using /config mapped to /root for data persistence
+- Removed all complexity - just runs the official commands
+
 ## [1.0.7] - 2025-11-09
 
 ### Fixed

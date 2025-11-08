@@ -1,5 +1,5 @@
 name: RustDesk Server Pro
-version: "1.0.7"
+version: "1.1.0"
 slug: rustdesk-server-pro
 description: Self-hosted RustDesk Pro server for remote desktop access
 url: https://github.com/mekenthompson/hass-addon-rustdesk-server-pro
@@ -28,6 +28,6 @@ ports_description:
   21118/tcp: "Web admin console"
   21119/tcp: "Web console support"
 map:
-  - share:rw
+  - config:rw
 options: {}
 schema: {}
