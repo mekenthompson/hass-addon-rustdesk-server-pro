@@ -2,6 +2,12 @@
 
 All notable changes to this add-on will be documented in this file.
 
+## [1.0.3] - 2025-11-09
+
+### Fixed
+- Hardcoded binary paths to /usr/bin/hbbs and /usr/bin/hbbr (confirmed location in RustDesk Pro image)
+- Added binary existence validation before starting services
+
 ## [1.0.2] - 2025-11-09
 
 ### Fixed
