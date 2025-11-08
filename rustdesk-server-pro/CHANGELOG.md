@@ -2,6 +2,12 @@
 
 All notable changes to this add-on will be documented in this file.
 
+## [1.1.1] - 2025-11-09
+
+### Fixed
+- **CRITICAL**: Added symlink /root -> /config for data persistence
+- Data now persists across restarts and upgrades in /config directory
+
 ## [1.1.0] - 2025-11-09
 
 ### Changed
