@@ -2,6 +2,13 @@
 
 All notable changes to this add-on will be documented in this file.
 
+## [1.0.7] - 2025-11-09
+
+### Fixed
+- Removed bashio dependency (not available in RustDesk image)
+- Using plain bash with echo for logging
+- Should now start properly without bashio errors
+
 ## [1.0.6] - 2025-11-09
 
 ### Fixed
