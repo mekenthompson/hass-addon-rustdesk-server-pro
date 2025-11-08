@@ -2,6 +2,12 @@
 
 All notable changes to this add-on will be documented in this file.
 
+## [1.1.2] - 2025-11-09
+
+### Fixed
+- Corrected web console access documentation - port 21114, not 21118
+- Added default credentials (admin/test1234) to documentation
+
 ## [1.1.1] - 2025-11-09
 
 ### Fixed

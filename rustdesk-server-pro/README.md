@@ -33,10 +33,14 @@ Run your own private RustDesk remote desktop server! This add-on provides a self
 
 Once started, access the admin console at:
 ```
-http://YOUR_HOME_ASSISTANT_IP:21118
+http://YOUR_HOME_ASSISTANT_IP:21114
 ```
 
-Default credentials (if applicable) - check the logs for generated credentials.
+**Default credentials:**
+- Username: `admin`
+- Password: `test1234`
+
+⚠️ **Change the default password immediately after first login!**
 
 ### 4️⃣ Configure RustDesk Clients
 
